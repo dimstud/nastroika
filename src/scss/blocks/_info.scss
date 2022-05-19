@@ -1,4 +1,17 @@
 .info {
-	
 	max-width: 240px;
+	&__tel {
+	  font-weight: 700;
+	  font-size: 16px;
+    line-height: 20px;
+	}
+	&__email {
+	  font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+	}
+	&__socials {
+	  display: flex;
+	  justify-content: center;
+	}
 }
