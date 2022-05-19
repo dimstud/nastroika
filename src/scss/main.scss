@@ -1,5 +1,7 @@
-@import 'libs/font.scss';
-@import '_blocks/_main-site.scss';
-.main-site {
-  background-color: #000;
+@import 'libs/font';
+@import 'blocks/main-site';
+
+* {
+  font-family: 'MontserratAlternates', monospace;
+  color: #F5F6EE;
 }
