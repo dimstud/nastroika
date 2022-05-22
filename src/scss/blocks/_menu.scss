@@ -1,0 +1,9 @@
+.menu {
+  background-color: $bg-color-black;
+  &__list {
+    display: inline-flex;
+    min-width: 700px;
+    border: 1px solid red;
+    text-align: center;
+  }
+}
