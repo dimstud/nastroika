@@ -1,0 +1,19 @@
+.application {
+  text-align: center;
+  &__descr {
+    font-weight: 900;
+    font-size: 48px;
+    line-height: 50px;
+    color: $text-color;
+  }
+  
+  &__cards {
+    display: flex;
+    justify-content: space-between;
+  }
+  &__card {
+    width: 270px;
+    min-height: 500px;
+    text-align: center;
+  }
+}

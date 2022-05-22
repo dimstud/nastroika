@@ -1,9 +1,12 @@
 .menu {
   background-color: $bg-color-black;
   &__list {
-    display: inline-flex;
-    min-width: 700px;
-    border: 1px solid red;
-    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  &__item {
+    border: 1px solid $text-color;
+    border-radius: 10px;
   }
 }
