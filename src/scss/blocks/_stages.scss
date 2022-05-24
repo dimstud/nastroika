@@ -13,5 +13,7 @@
   &__list {
     display: block;
   }
-  &__item
+  &__item {
+    display: flex;
+  }
 }
