@@ -1,3 +1,17 @@
 .stages {
+  text-align: center;
+  &__title {
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 59px;
+  }
+  &__block {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
   
+  &__list {
+    display: block;
+  }
+  &__item
 }
