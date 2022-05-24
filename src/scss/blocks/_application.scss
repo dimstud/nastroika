@@ -11,9 +11,41 @@
     display: flex;
     justify-content: space-between;
   }
+  
   &__card {
     width: 270px;
     min-height: 500px;
     text-align: center;
+    
+    &-img {
+      width: 270px;
+      height: 200px;
+    }
+    
+    &-title {
+      position: relative;
+      font-weight: 700;
+      font-size: 18px;
+      line-height: 22px;
+      text-transform: uppercase;
+      &:after {
+        content: '';
+        position: absolute;
+        top: 28px;
+        left: 50%;
+        transform: translateX(-50%);
+        display: block;
+        width: 108px;
+        height: 2px;
+        background-color: $elem-color;
+      }
+    }
+    
+    &-descr {
+        margin-top: 20px;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 20px;
+      }
   }
 }
