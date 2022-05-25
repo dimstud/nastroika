@@ -4,8 +4,8 @@
   background: url('../img/promo_bg.jpg') center (center/cover) no-repeat;
 
   &__descr {
-    font-weight: 900;
-    font-size: 48px;
+    font-weight: 900;
+    font-size: 48px;
     line-height: 60px;
     color: $text-color;
   }
@@ -31,28 +31,28 @@
     &-title {
       margin-top: 33px;
       position: relative;
-      font-weight: 700;
-      font-size: 18px;
-      line-height: 22px;
+      font-weight: 700;
+      font-size: 18px;
+      line-height: 22px;
       text-transform: uppercase;
       &:after {
         content: '';
-        position: absolute;
+        position: absolute;
         top: 32px;
         left: 50%;
         transform: translateX(-50%);
         display: block;
-        width: 108px;
-        height: 2px;
+        width: 108px;
+        height: 2px;
         background-color: $elem-color;
       }
     }
     
     &-descr {
         margin-top: 42px;
-        font-weight: 500;
-        font-size: 14px;
-        line-height: 20px;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 20px;
       }
   }
 }

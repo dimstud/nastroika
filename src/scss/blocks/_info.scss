@@ -4,17 +4,23 @@
 
   &__tel {
     display: block;
-    font-weight: 700;
-    font-size: 16px;
-    line-height: 20px;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    span {
+      font-size: 12px;
+    }
   }
 
   &__email {
     display: block;
     margin-top: 4px;
-    font-weight: 700;
-    font-size: 16px;
-    line-height: 20px;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    span {
+      font-size: 12px;
+    }
   }
 
   &__socials {

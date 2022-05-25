@@ -3,25 +3,26 @@
   text-align: center;
 
   &__title {
-    font-weight: 700;
-    font-size: 20px;
-    line-height: 24px;
-    text-align: center;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: center;
   }
   &__list {
+    margin: 0 auto;
     margin-top: 6px;
     display: flex;
     justify-content: space-between;
-    width: 200px
+    width: 160px
   }
   &__day {
-    font-weight: 700;
-    font-size: 16px;
-    line-height: 20px;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
   }
   &__hours {
     display: block;
-    margin-top: 9px;
-    text-align: center;
+    margin-top: 6px;
+    text-align: center;
   }
 }
