@@ -1,19 +1,54 @@
 .stages {
+  padding: 40px 0;
   text-align: center;
+
   &__title {
     font-weight: 700;
     font-size: 48px;
     line-height: 59px;
   }
+
   &__block {
     display: grid;
     grid-template-columns: 1fr 1fr;
+    margin-top: 40px;
   }
   
   &__list {
-    display: block;
+    display: flex;
+    flex-direction: column;
   }
+
   &__item {
     display: flex;
+    margin-bottom: 40px;
+    &:last-child {
+      margin-bottom: 0;
+    }
+
+    &-img {
+      width: 100px;
+      height: 100px;
+    }
+
+    &-block {
+      width: 360px;
+      margin-left: 50px;
+      text-align: left;
+    }
+
+    &-title {
+      font-weight: 700;
+      font-size: 26px;
+      line-height: 32px;
+      text-transform: uppercase;
+    }
+
+    &-descr {
+      margin-top: 10px;
+      font-weight: 500;
+      font-size: 20px;
+      line-height: 24px;
+    }
   }
 }
