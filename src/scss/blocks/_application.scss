@@ -1,21 +1,27 @@
 .application {
+  padding: 100px 0;
   text-align: center;
+  background: url('../img/promo_bg.jpg') center (center/cover) no-repeat;
+
   &__descr {
     font-weight: 900;
     font-size: 48px;
-    line-height: 50px;
+    line-height: 60px;
     color: $text-color;
   }
   
   &__cards {
     display: flex;
     justify-content: space-between;
+    margin-top: 100px;
   }
   
   &__card {
     width: 270px;
     min-height: 500px;
     text-align: center;
+    background-color: $bg-color-black;
+    border-radius: 10px;
     
     &-img {
       width: 270px;
@@ -23,6 +29,7 @@
     }
     
     &-title {
+      margin-top: 33px;
       position: relative;
       font-weight: 700;
       font-size: 18px;
@@ -31,7 +38,7 @@
       &:after {
         content: '';
         position: absolute;
-        top: 28px;
+        top: 32px;
         left: 50%;
         transform: translateX(-50%);
         display: block;
@@ -42,7 +49,7 @@
     }
     
     &-descr {
-        margin-top: 20px;
+        margin-top: 42px;
         font-weight: 500;
         font-size: 14px;
         line-height: 20px;
