@@ -2,30 +2,33 @@
   text-align: center;
   max-width: 240px;
 
-	&__tel {
-	  font-weight: 700;
-	  font-size: 16px;
-    line-height: 20px;
-	}
-
-	&__email {
-	  font-weight: 700;
+  &__tel {
+    display: block;
+    font-weight: 700;
     font-size: 16px;
     line-height: 20px;
-	}
+  }
 
-	&__socials {
-	  display: flex;
-	  justify-content: center;
-	  margin-top: 4px;
-	}
+  &__email {
+    display: block;
+    margin-top: 4px;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+  }
 
-	&__social {
-		width: 28px;
-		height: 28px;
-		margin-right: 12px;
-		&:last-child {
-			margin-right: 0;
-		}
-	}
+  &__socials {
+    display: flex;
+    justify-content: center;
+    margin-top: 4px;
+  }
+
+  &__social {
+    width: 28px;
+    height: 28px;
+    margin-right: 12px;
+    &:last-child {
+      margin-right: 0;
+    }
+  }
 }
