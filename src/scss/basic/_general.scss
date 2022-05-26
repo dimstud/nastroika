@@ -1,4 +1,3 @@
-
 * {
 	font-family: 'MontserratAlternates', monospace;
 	color: $text-color;
@@ -48,6 +47,9 @@ html {
 .container {
   width: 1200px;
   margin: 0 auto;
+  @media(min-width: 1200px) {
+    width: 320px;
+  }
 }
 
 .visually-hidden:not(:focus):not(:active) {

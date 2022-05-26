@@ -31,15 +31,18 @@
 		<div class="container">
 			<div class="header__block">
 				<div class="header__logo logo">
-					<img src='img\logo.png'>
+				  <a>
+				    <picture>
+				    <source media="(min-width: 1200px)" srcset="/img/logo-mobile.png"> <img src='img\logo.png' alt='Логотип Настройка'> 
+				  </picture>
+				  </a>
 				</div>
 	
 				<div class="header__info info">
-					<a class="info__tel" href="tel:+79273661553"><span>тел.: </span>+7 927 366 15 53</a>
-					<a class="info__email" href="mailto:joe@example.com?subject=feedback"><span>email: </span>vadik@example.com</a>
+					<a class="info__tel" href="tel:+79273661553">тел.: +7 927 366 15 53</a>
+					<a class="info__email" href="mailto:joe@example.com?subject=feedback">email: joe@example.com</a>
 					<ul class="info__socials">
-						<li class="info__social">
-							<a class="info__social-link" href="#">
+#00ccff							<a class="info__social-link" href="#">
 								<svg width="28" height="28" viewBox="0 0 28 29" fill="none"
 									xmlns="http://www.w3.org/2000/svg">
 									<path
@@ -98,39 +101,39 @@
 					<p class="graph__hours"> с 8:00 до 20:00</p>
 				</div>	
 			</div>
-		</div>
-
-		<nav class="menu">
-			<div class="container">
-				<ul class="menu__list">
-					<li class="menu__item">
-						<a class="menu__link" href="#">
-							Главная
-						</a>
-					</li>
-					<li class="menu__item">
-						<a class="menu__link" href="#">
-							Наши работы
-						</a>
-					</li>
-					<li class="menu__item">
-						<a class="menu__link" href="#">
-							Услуги
-						</a>
-					</li>
-					<li class="menu__item">
-						<a class="menu__link" href="#">
-							О нас
-						</a>
-					</li>
-				</ul>
-				<div class="hamburger">
-					<span></span>
-					<span></span>
-					<span></span>
+			
+			<nav class="menu">
+				<div class="container">
+					<ul class="menu__list">
+						<li class="menu__item">
+							<a class="menu__link" href="#">
+								Главная
+							</a>
+						</li>
+						<li class="menu__item">
+							<a class="menu__link" href="#">
+								Наши работы
+							</a>
+						</li>
+						<li class="menu__item">
+							<a class="menu__link" href="#">
+								Услуги
+							</a>
+						</li>
+						<li class="menu__item">
+							<a class="menu__link" href="#">
+								О нас
+							</a>
+						</li>
+					</ul>
+					<div class="hamburger">
+						<span></span>
+						<span></span>
+						<span></span>
+					</div>
 				</div>
-			</div>
-		</nav>
+			</nav>
+		</div>
 	</header>
 
 	<main class="main">
@@ -142,25 +145,25 @@
 
 				<div class="application__cards">
 					<div class="application__card">
-						<img class="application__card-img" src="img/electromontag-270.jpg" alt="электромонтаж" width="270" height="200" />
+						<img class="application__card-img" src="img/electromontag-270.jpg" alt="электромонтаж" width="270px" height="200px" />
 						<h3 class="application__card-title">Электромонтаж</h3>
 						<p class="application__card-descr">Проектирование. Монтаж. Составление смет. Электромонтаж: квартир, частных домов, административно-бытовых помещений, складов, производственных помещений.</p>
 					</div>
 
 					<div class="application__card">
-						<img class="application__card-img" src="img/slabotoch-270.jpg" alt="Слаботочные системы" width="270" height="200" />
+						<img class="application__card-img" src="img/slabotoch-270.jpg" alt="Слаботочные системы" width="270px" height="200px" />
 						<h3 class="application__card-title">Слаботочные системы</h3>
 						<p class="application__card-descr">​Монтаж, проектирование, пусконаладочные работы. ​Системы охраны и видеонаблюдения. Системы контроля удаленного доступа. Охранно-пожарная сигнализация.</p>
 					</div>
 
 					<div class="application__card">
-						<img class="application__card-img" src="img/automatic-270.jpg" alt="Автоматизация" width="270" height="200" />
+						<img class="application__card-img" src="img/automatic-270.jpg" alt="Автоматизация" width="270px" height="200px" />
 						<h3 class="application__card-title">Автоматизация</h3>
 						<p class="application__card-descr">Проектирование, монтаж всех видов релейной защиты и автоматики. Программируемых реле и логических контроллеров.Сборка вводно-распределительных устройств.Шкафы управления:Вентиляцией, насосами, подъёмниками и т.д.</p>
 					</div>
 
 					<div class="application__card">
-						<img class="application__card-img" src="img/smart-house-270.jpg" alt="Система умный дом" width="270" height="200" />
+						<img class="application__card-img" src="img/smart-house-270.jpg" alt="Система умный дом" width="270px" height="200px" />
 						<h3 class="application__card-title">Система умный дом</h3>
 						<p class="application__card-descr">Проектирование, монтаж, пусконаладочные работ. Автоматический сбор данных с приборов учета, дистанционное управление электроприборами, освещением и коммуникацими. Системы охраны, защит от протечек.</p>
 					</div>
@@ -174,36 +177,36 @@
         <div class="stages__block">
           <ul class="stages__list">
 					<li class="stages__item">
-						<img src="img/application.png" alt="Заявка" class="stages__item-img" width="100" height="100">
+						<img src="img/application.png" alt="Заявка" class="stages__item-img">
 						<div class="stages__item-block">
-						  <h4 class="stages__item-title">Заявка</h4>
+						  <h4 class="satges__item-head">Заявка</h4>
 					  	<p class="stages__item-descr">Позвоните нам +79273661553.</p>
 						</div>
 					</li>
 					<li class="stages__item">
-						<img src="img/master.png" alt="Выезд специалиста" class="stages__item-img" width="100" height="100">
+						<img src="img/master.png" alt="Выезд специалиста" class="stages__item-img">
 						<div class="stages__item-block">
-						  <h4 class="stages__item-title">Выезд специалиста</h4>
+						  <h4 class="satges__item-head">Выезд специалиста</h4>
 						  <p class="stages__item-descr">Для бесплатной консультациии опрделения ориентировочной стоимости работ. Специалист составит смету на материалы и работы.</p>
 						</div>
 					</li>
 					<li class="stages__item">
-						<img src="img/purchase.png" alt="Закупка" class="stages__item-img" width="100" height="100">
-						<div class="stages__item-block">
-						  <h4 class="stages__item-title">Закупка</h4>
+						<img src="img/purchase.png" alt="Закупка" class="stages__item-img">
+						<div class="stages__list">
+						  <h4 class="satges__item-head">Закупка</h4>
 						<p class="stages__item-descr">Мы сами закупим все необходимые материалы для работ по выгодным ценам.</p>
 						</div>
 					</li>
 					<li class="stages__item">
-						<img src="img/mounting.png" alt="Монтаж" class="stages__item-img" width="100" height="100">
+						<img src="img/mounting.png" alt="Монтаж" class="stages__item-img">
 						<div class="stages__item-block">
-						  <h4 class="stages__item-title">Монтаж</h4>
+						  <h4 class="satges__item-head">Монтаж</h4>
 						  <p class="stages__item-descr">Выполнение работ, оплата.</p>
 						</div>
 					</li>
 				</ul>
 				<div class="stages__img">
-					<img src="img/stages.jpg" alt="Выполнение электромонтажных работ" width="640" height="800">
+					<img src="img/stages.jpg" alt="Выполнение электромонтажных работ">
 				</div>
         </div>
 			</div>
@@ -212,11 +215,11 @@
 		<div class="advantages">
 			<div class="container">
 				<ul class="advantages__list">
-					<li class="advantages__item"><span>Гарантия<br> качества</span></li>
-					<li class="advantages__item"><span>Индивидуальный<br> подход</span></li>
-					<li class="advantages__item"><span>Быстрая<br> реализация</span></li>
+					<li class="advantages__item">Гарантия качества</li>
+					<li class="advantages__item">Индивидуальный подход</li>
+					<li class="advantages__item">Быстрая реализация</li>
 					<li class="advantages__item">
-						<span>Бесплатный выезд специалиста</span>
+						Бесплатный выезд специалиста
 						<p class="advantages__descr">Наш специалист проконсультирует вас, произведет расчет стоимости работ, поможет подобрать материлы.</p>
 					</li>
 				</ul>
