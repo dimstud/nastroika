@@ -38,3 +38,16 @@
     }
   }
 }
+
+#info__mobile {
+  display: none;
+  @media (max-width: 575px) {
+    display: block ;
+  }
+}
+
+#info__desctop {
+  @media (max-width: 775px) {
+    display: none;
+  }
+}
