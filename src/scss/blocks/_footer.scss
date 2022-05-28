@@ -1,0 +1,22 @@
+.footer {
+	padding: 40px 0 60px;
+
+	&__block {
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+	}
+
+	&__address {
+		max-width: 250px;
+		text-align: center;
+		font-weight: 500;
+		font-size: 20px;
+		line-height: 24px;
+
+		span {
+			display: block;
+			font-weight: 700;
+		}
+	}
+}

@@ -37,6 +37,15 @@
       margin-right: 0;
     }
   }
+
+  @media (max-width: 575px) {
+    &__email {
+      display: none;
+    }
+    &__socials {
+      display: none;
+    }
+  }
 }
 
 #info__mobile {
