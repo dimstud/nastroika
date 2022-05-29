@@ -19,6 +19,7 @@
   &__card {
     width: 270px;
     min-height: 500px;
+    padding-bottom: 16px;
     text-align: center;
     background-color: $bg-color-black;
     border-radius: 10px;
@@ -54,5 +55,43 @@
         font-size: 14px;
         line-height: 20px;
       }
+  }
+
+  @media (max-width: 575px) {
+    padding: 40px 0;
+
+    &__descr {
+      font-size: 26px;
+      line-height: 39px;
+    }
+
+    &__cards {
+      flex-direction: column;
+      margin-top: 50px;
+    }
+
+    &__card {
+      width: 300px;
+      margin: 0 auto;
+      margin-bottom: 40px;
+
+      &:last-child {
+        margin-bottom: 0;
+      }
+
+      &-title {
+        margin-top: 26px;
+        font-size: 20px;
+      }
+
+      &-descr {
+        display: block;
+        margin: 0 auto;
+        margin-top: 40px;
+        width: 280px;
+        font-size: 16px;
+        line-height: 22px;
+      }
+    }
   }
 }

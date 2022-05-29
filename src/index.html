@@ -32,16 +32,16 @@
 			<div class="header__block">
 				<div class="header__logo logo">
 				  <a>
-					<picture>
-					<source media="(max-width: 575px)" srcset="/img/logo-mobile.png">
-					<img src='img\logo.png' alt='Логотип Настройка'> 
-					  </picture>
+            <picture>
+              <source media="(max-width: 575px)" srcset="img/logo-mobile.png">
+              <img src='img/logo.png' alt='Логотип Настройка'> 
+            </picture>
 				  </a>
 				</div>
 	
 				<div class="header__info info" id="info__desctop">
-					<a class="info__tel" href="tel:+79273661553">тел.: +7 927 366 15 53</a>
-					<a class="info__email" href="mailto:joe@example.com?subject=feedback">email: joe@example.com</a>
+					<a class="info__tel" href="tel:+79273661553"><span>тел.:</span> +7 927 366 15 53</a>
+					<a class="info__email" href="mailto:joe@example.com?subject=feedback"><span>email:</span> joe@example.com</a>
 					<ul class="info__socials">
 					  <li class="info__social">
 							<a class="info__social-link" href="#">
@@ -110,7 +110,7 @@
 				</div>
 			</div>
 			
-			<nav class="menu menu--active">
+			<nav class="menu">
 				<div class="container">
 					<ul class="menu__list">
 						<li class="menu__item">
@@ -138,111 +138,100 @@
 			</nav>
 			
 			<div class="header__info info" id="info__mobile">
-					<a class="info__tel" href="tel:+79273661553">тел.: +7 927 366 15 53</a>
-					<a class="info__email" href="mailto:joe@example.com?subject=feedback">email: joe@example.com</a>
-					<ul class="info__socials">
-					  <li class="info__social">
-							<a class="info__social-link" href="#">
-								<svg width="28" height="28" viewBox="0 0 28 29" fill="none"
-									xmlns="http://www.w3.org/2000/svg">
-									<path
-										d="M24.8511 4.26331C24.5783 4.27527 24.3128 4.35118 24.0734 4.44706C23.8364 4.54229 22.4721 5.12459 20.4575 5.98596C18.4428 6.84733 15.8239 7.96902 13.2278 9.08127C8.03561 11.3058 2.93341 13.4946 2.93341 13.4946L2.9706 13.4803C2.9706 13.4803 2.66265 13.5833 2.35044 13.8008C2.19434 13.9096 2.02639 14.05 1.88888 14.2547C1.75137 14.4594 1.65084 14.7496 1.68872 15.0564C1.82179 16.1343 2.93888 16.44 2.93888 16.44L2.94325 16.4422L7.92857 18.1485C8.05567 18.5725 9.44063 23.195 9.74529 24.1739C9.91354 24.7152 10.071 25.0274 10.2353 25.2403C10.3175 25.3469 10.4036 25.4294 10.4989 25.4897C10.5367 25.5137 10.5765 25.5317 10.6159 25.5477C10.6168 25.5481 10.6173 25.5473 10.6181 25.5477C10.6229 25.5498 10.6275 25.55 10.6323 25.5521L10.6192 25.5488C10.6283 25.5525 10.6374 25.5587 10.6465 25.5619C10.6643 25.5681 10.6752 25.5679 10.6979 25.5728C11.2689 25.7722 11.7414 25.4022 11.7414 25.4022L11.7611 25.3869L14.8236 22.5464L19.7936 26.4216L19.8559 26.45C20.7258 26.8363 21.5126 26.6208 21.9483 26.2663C22.3839 25.9118 22.5553 25.4547 22.5553 25.4547L22.5739 25.4066L26.2259 6.37206C26.3194 5.94621 26.3326 5.57811 26.2445 5.24549C26.1564 4.91287 25.9422 4.62373 25.6736 4.46346C25.4049 4.3032 25.1238 4.25134 24.8511 4.26331ZM24.8806 5.4019C24.9914 5.39677 25.0735 5.40943 25.0993 5.42487C25.1252 5.4403 25.1368 5.43827 25.1617 5.53206C25.1865 5.62584 25.2 5.82337 25.1322 6.13252L25.13 6.13909L21.4987 25.0631C21.4901 25.0822 21.4145 25.2573 21.2417 25.3978C21.0654 25.5412 20.8694 25.6532 20.3492 25.435L14.9143 21.1967L14.7612 21.0764L14.7579 21.0797L13.1326 19.8602L22.2665 9.11409C22.3367 9.03173 22.3815 8.9308 22.3956 8.82351C22.4096 8.71622 22.3923 8.60715 22.3457 8.50951C22.299 8.41186 22.2251 8.32981 22.1329 8.27328C22.0406 8.21675 21.9339 8.18816 21.8258 8.19096C21.7201 8.19371 21.6173 8.22632 21.5293 8.28502L8.31247 17.0963L3.3195 15.3867C3.3195 15.3867 2.8237 15.1108 2.79997 14.9186C2.79866 14.908 2.7928 14.9176 2.81857 14.8792C2.84433 14.8409 2.90909 14.7761 2.99029 14.7196C3.15267 14.6064 3.3381 14.538 3.3381 14.538L3.35669 14.5314L3.37529 14.5238C3.37529 14.5238 8.47775 12.3349 13.6697 10.1105C16.2656 8.99829 18.8841 7.87743 20.8983 7.01627C22.9119 6.15534 24.3669 5.53565 24.4901 5.48612C24.6304 5.42995 24.7698 5.40703 24.8806 5.4019ZM18.8234 11.435L11.8967 19.5846L11.8934 19.5878C11.8826 19.6009 11.8724 19.6144 11.8628 19.6283C11.8518 19.6435 11.8416 19.6592 11.8322 19.6753C11.7932 19.7414 11.7683 19.8147 11.7589 19.8908C11.7589 19.8923 11.7589 19.8937 11.7589 19.8952L10.8565 23.953C10.8415 23.9092 10.831 23.8931 10.815 23.8414V23.8403C10.5284 22.9194 9.2217 18.56 9.04091 17.9571L18.8234 11.435ZM12.6787 20.92L13.9234 21.8541L12.0947 23.5494L12.6787 20.92Z"
-										fill="#FFFF00" />
-								</svg>
-							</a>
-						</li>
-						<li class="info__social">
-							<a class="info__social-link" href="#">
-								<svg width="28" height="28" viewBox="0 0 28 29" fill="none"
-									xmlns="http://www.w3.org/2000/svg">
-									<path
-										d="M3.17068 7.30255C1.86317 7.30255 0.867545 8.58825 1.22813 9.85236C2.16699 13.1475 3.55876 16.3741 5.63617 18.9111C7.71359 21.4481 10.5232 23.287 14.1162 23.6518C15.3121 23.7732 16.3435 22.7983 16.3435 21.6159V19.2552C16.3435 19.1079 16.4441 19.0032 16.5589 19C16.5801 18.9995 16.5971 18.9988 16.6079 18.9988C17.0205 18.9988 17.8683 19.5158 18.6131 20.3193C19.3578 21.1229 20.0165 22.1176 20.3334 22.6686V22.6697C20.692 23.2921 21.3603 23.6678 22.0709 23.6678H24.9135C26.3292 23.6688 27.2766 22.0696 26.5838 20.8309C25.496 18.8853 23.3259 16.961 22.2407 16.0013C24.229 13.8178 25.5473 11.4382 26.1315 9.86033C26.5723 8.66817 25.6633 7.32648 24.3815 7.32648H22.3523C21.4703 7.32648 20.6479 7.75624 20.3118 8.44415C18.7326 11.6803 17.3249 12.8688 16.3333 13.7249V9.33396C16.3333 8.23851 15.4243 7.33536 14.3326 7.33331L10.7791 7.32762C9.64748 7.32622 8.9458 8.72382 9.6238 9.63019L10.3097 10.5485L10.3108 10.5508C10.4284 10.7062 10.4908 10.8925 10.4908 11.084V11.0851L10.5045 14.7469C9.09111 13.2563 7.55557 10.0988 7.09223 8.69025V8.68911C6.82162 7.86632 6.04313 7.31077 5.18386 7.30825H5.18272L3.17182 7.30255H3.17068ZM3.17068 9.05255L5.1793 9.05825C5.30277 9.05854 5.39357 9.12516 5.42996 9.23598C6.00529 10.9855 7.51692 14.319 9.43354 16.1859C9.93124 16.6707 10.6617 16.769 11.228 16.539C11.7942 16.3091 12.2556 15.713 12.2556 15.0135V15.0123L12.2408 11.084C12.2408 10.5118 12.0535 9.95544 11.7099 9.49917L11.7088 9.49689L11.3955 9.07876L14.3292 9.08331C14.4824 9.08361 14.5833 9.18342 14.5833 9.33396V13.7693C14.5833 15.1896 16.372 16.0057 17.4475 15.0773H17.4487C18.4345 14.2257 20.1791 12.7058 21.8841 9.21206C21.9236 9.13114 21.8892 9.07648 22.3523 9.07648H24.3815C24.4996 9.07648 24.5342 9.13274 24.4897 9.25307C23.9934 10.5937 22.7271 12.9316 20.8496 14.9542C20.2708 15.5778 20.2944 16.608 20.9487 17.1873C21.9743 18.0945 24.2126 20.1758 25.0559 21.6842C25.1331 21.8222 25.0751 21.9179 24.9147 21.9178H22.0709C21.9731 21.9178 21.8926 21.87 21.8499 21.7959C21.4709 21.137 20.7759 20.0781 19.8971 19.1299C19.0183 18.1817 17.9721 17.2488 16.6079 17.2488C16.5692 17.2488 16.5376 17.2494 16.5133 17.25H16.511H16.5099C15.4241 17.2806 14.5935 18.202 14.5935 19.2552V21.6159C14.5935 21.7973 14.4536 21.9273 14.2927 21.9109C11.1873 21.5956 8.84656 20.0702 6.98969 17.8026C5.13281 15.5349 3.80664 12.5164 2.91091 9.3727C2.86083 9.19714 2.96852 9.05255 3.17068 9.05255Z"
-										fill="#FFFF00" />
-								</svg>
-							</a>
-						</li>
-					</ul>
+					<a class="info__tel" href="tel:+79273661553"><span>тел.:</span> +7 927 366 15 53</a>
 			</div>
 		</div>
 	</header>
 
-	<!-- <main class="main">
+	<main class="main">
 		<h1 class="visually-hidden">Настройка</h1>
 
-		<div class="application">
+		<section class="application">
 			<div class="container">
 				<p class="application__descr">Профессиональный электромонтаж Пенза и Пензенскаяобласть</p>
 
 				<div class="application__cards">
 					<div class="application__card">
-						<img class="application__card-img" src="img/electromontag-270.jpg" alt="электромонтаж" width="270px" height="200px" />
+            <picture>
+              <source media="(max-width: 575px)" srcset="img/electromontag.jpg">
+              <img src="img/electromontag-270.jpg" alt="Электромонтаж"/> 
+            </picture>
 						<h3 class="application__card-title">Электромонтаж</h3>
 						<p class="application__card-descr">Проектирование. Монтаж. Составление смет. Электромонтаж: квартир, частных домов, административно-бытовых помещений, складов, производственных помещений.</p>
 					</div>
 
 					<div class="application__card">
-						<img class="application__card-img" src="img/slabotoch-270.jpg" alt="Слаботочные системы" width="270px" height="200px" />
+            <picture>
+              <source media="(max-width: 575px)" srcset="img/slabotoch.jpg">
+              <img src="img/slabotoch-270.jpg" alt="Слаботочные системы"/> 
+            </picture>
 						<h3 class="application__card-title">Слаботочные системы</h3>
 						<p class="application__card-descr">​Монтаж, проектирование, пусконаладочные работы. ​Системы охраны и видеонаблюдения. Системы контроля удаленного доступа. Охранно-пожарная сигнализация.</p>
 					</div>
 
 					<div class="application__card">
-						<img class="application__card-img" src="img/automatic-270.jpg" alt="Автоматизация" width="270px" height="200px" />
+            <picture>
+              <source media="(max-width: 575px)" srcset="img/automatic.jpg">
+              <img src="img/automatic-270.jpg" alt="Автоматизация"/> 
+            </picture>
 						<h3 class="application__card-title">Автоматизация</h3>
 						<p class="application__card-descr">Проектирование, монтаж всех видов релейной защиты и автоматики. Программируемых реле и логических контроллеров.Сборка вводно-распределительных устройств.Шкафы управления:Вентиляцией, насосами, подъёмниками и т.д.</p>
 					</div>
 
 					<div class="application__card">
-						<img class="application__card-img" src="img/smart-house-270.jpg" alt="Система умный дом" width="270px" height="200px" />
+            <picture>
+              <source media="(max-width: 575px)" srcset="img/smart-house.jpg">
+              <img src="img/smart-house-270.jpg" alt="Система умный дом"/> 
+            </picture>
 						<h3 class="application__card-title">Система умный дом</h3>
 						<p class="application__card-descr">Проектирование, монтаж, пусконаладочные работ. Автоматический сбор данных с приборов учета, дистанционное управление электроприборами, освещением и коммуникацими. Системы охраны, защит от протечек.</p>
 					</div>
 				</div>
 			</div>
-		</div>
+		</section>
 
-		<div class="stages">
+		<!-- <section class="stages">
 			<div class="container">
 				<h2 class="stages__title">Этапы выполнения работ</h2>
         <div class="stages__block">
           <ul class="stages__list">
-					<li class="stages__item">
-						<img src="img/application.png" alt="Заявка" class="stages__item-img">
-						<div class="stages__item-block">
-						  <h4 class="satges__item-head">Заявка</h4>
-					  	<p class="stages__item-descr">Позвоните нам +79273661553.</p>
-						</div>
-					</li>
-					<li class="stages__item">
-						<img src="img/master.png" alt="Выезд специалиста" class="stages__item-img">
-						<div class="stages__item-block">
-						  <h4 class="satges__item-head">Выезд специалиста</h4>
-						  <p class="stages__item-descr">Для бесплатной консультациии опрделения ориентировочной стоимости работ. Специалист составит смету на материалы и работы.</p>
-						</div>
-					</li>
-					<li class="stages__item">
-						<img src="img/purchase.png" alt="Закупка" class="stages__item-img">
-						<div class="stages__list">
-						  <h4 class="satges__item-head">Закупка</h4>
-						<p class="stages__item-descr">Мы сами закупим все необходимые материалы для работ по выгодным ценам.</p>
-						</div>
-					</li>
-					<li class="stages__item">
-						<img src="img/mounting.png" alt="Монтаж" class="stages__item-img">
-						<div class="stages__item-block">
-						  <h4 class="satges__item-head">Монтаж</h4>
-						  <p class="stages__item-descr">Выполнение работ, оплата.</p>
-						</div>
-					</li>
-				</ul>
-				<div class="stages__img">
-					<img src="img/stages.jpg" alt="Выполнение электромонтажных работ">
-				</div>
+            <li class="stages__item">
+              <img src="img/application.png" alt="Заявка" class="stages__item-img">
+              <div class="stages__item-block">
+                <h4 class="satges__item-head">Заявка</h4>
+                <p class="stages__item-descr">Позвоните нам +79273661553.</p>
+              </div>
+            </li>
+            <li class="stages__item">
+              <img src="img/master.png" alt="Выезд специалиста" class="stages__item-img">
+              <div class="stages__item-block">
+                <h4 class="satges__item-head">Выезд специалиста</h4>
+                <p class="stages__item-descr">Для бесплатной консультациии опрделения ориентировочной стоимости работ. Специалист составит смету на материалы и работы.</p>
+              </div>
+            </li>
+            <li class="stages__item">
+              <img src="img/purchase.png" alt="Закупка" class="stages__item-img">
+              <div class="stages__list">
+                <h4 class="satges__item-head">Закупка</h4>
+              <p class="stages__item-descr">Мы сами закупим все необходимые материалы для работ по выгодным ценам.</p>
+              </div>
+            </li>
+            <li class="stages__item">
+              <img src="img/mounting.png" alt="Монтаж" class="stages__item-img">
+              <div class="stages__item-block">
+                <h4 class="satges__item-head">Монтаж</h4>
+                <p class="stages__item-descr">Выполнение работ, оплата.</p>
+              </div>
+            </li>
+				  </ul>
+          <div class="stages__img">
+            <img src="img/stages.jpg" alt="Выполнение электромонтажных работ">
+          </div>
         </div>
 			</div>
-		</div>
+		</section> -->
 
-		<div class="advantages">
+		<!-- <section class="advantages">
 			<div class="container">
 				<ul class="advantages__list">
 					<li class="advantages__item">Гарантия качества</li>
@@ -254,10 +243,10 @@
 					</li>
 				</ul>
 			</div>
-		</div>
+		</section> -->
 	</main>
 
-	<footer class="footer">
+	<!-- <footer class="footer">
 		<div class="container">
 			<div class="footer__block">
 				<div class="footer__info info">

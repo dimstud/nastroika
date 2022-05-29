@@ -42,12 +42,12 @@
     max-width: 100%;
     margin-top: 20px;
 
-    &__email {
-      display: none;
-    }
-
-    &__socials {
-      display: none;
+    &__tel {
+      font-size: 20px;
+      line-height: 24px;
+      span {
+        font-size: 16px;
+      }
     }
   }
 }
