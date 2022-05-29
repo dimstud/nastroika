@@ -39,9 +39,13 @@
   }
 
   @media (max-width: 575px) {
+    max-width: 100%;
+    margin-top: 20px;
+
     &__email {
       display: none;
     }
+
     &__socials {
       display: none;
     }
