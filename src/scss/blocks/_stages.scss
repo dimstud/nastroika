@@ -51,4 +51,41 @@
       line-height: 24px;
     }
   }
+  @media (max-width: 575px) {
+    &__title {
+      font-size: 26px;
+      line-height: 32px;
+    }
+    
+    &__block {
+      display: block;
+    }
+    
+    &__list {
+      display: block;
+    }
+    
+    &__item {
+      display: block;
+      
+      &-block {
+      width: auto;
+      margin: 0;
+      text-align: center;
+      }
+      
+      &-title {
+        font-size: 26px;
+        line-height: 32px;
+      }
+      
+      &-descr {
+        
+      }
+    }
+    
+    &__img {
+      display: none;
+    }
+  }
 }
