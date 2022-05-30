@@ -11,10 +11,7 @@
 
 	&__item {
     text-align: center;
-    margin-right: 11%;
-    &:nth-child(3) {
-      margin-right: 0;
-    }
+    
     &:last-child {
       margin-right: 0;
       margin-top: 100px;
@@ -22,6 +19,7 @@
       grid-column-start: 1;
       grid-column-end: 4;
     }
+    
     span {
       display: block;
       width: 100%;
@@ -49,5 +47,23 @@
     font-weight: 500;
     font-size: 32px;
     line-height: 50px;
+  }
+  
+  @media (max-width: 575px) {
+    &__list {
+      display: block;
+    }
+    
+    &__item {
+      span {
+        font-size: 28px;
+        line-height: 34px;
+      }
+    }
+    
+    &__descr {
+      font-size: 18px;
+      line-height: 22px;
+    }
   }
 }
