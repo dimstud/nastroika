@@ -55,6 +55,11 @@
     }
     
     &__item {
+      margin-bottom: 60px;
+      &:last-child {
+        margin-bottom: 0;
+      }
+
       span {
         font-size: 28px;
         line-height: 34px;
@@ -62,6 +67,7 @@
     }
     
     &__descr {
+      margin-top: 40px;
       font-size: 18px;
       line-height: 22px;
     }
