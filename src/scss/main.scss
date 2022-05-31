@@ -10,3 +10,11 @@
 @import 'blocks/stages';
 @import 'blocks/advantages';
 @import 'blocks/footer';
+
+.show {
+	display: block;
+  }
+  
+  .hide {
+	display: none;
+  }
