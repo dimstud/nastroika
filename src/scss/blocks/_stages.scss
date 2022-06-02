@@ -51,6 +51,27 @@
       line-height: 24px;
     }
   }
+
+  @media (max-width: 1200px) {
+    &__block {
+      display: block;
+    }
+
+    &__list {
+      flex-direction: row;
+      flex-wrap: wrap;
+      justify-content: space-around;
+    }
+
+    &__item {
+      margin-top: 50px;
+    }
+
+    &__img {
+      display: none;
+    }
+  }
+
   @media (max-width: 575px) {
     &__title {
       font-size: 26px;
@@ -79,10 +100,6 @@
         line-height: 32px;
         margin-top: 20px;
       }
-    }
-    
-    &__img {
-      display: none;
     }
   }
 }

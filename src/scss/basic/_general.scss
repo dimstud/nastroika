@@ -47,10 +47,15 @@ html {
 .container {
   width: 1200px;
   margin: 0 auto;
+
+  @media(max-width: 1200px) {
+    width: 960px;
+  }
   @media(max-width: 575px) {
     width: 320px;
   }
 }
+
 
 .visually-hidden:not(:focus):not(:active) {
   position: absolute;
