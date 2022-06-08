@@ -1,0 +1,16 @@
+.gallery {
+	padding: 60px 0;
+	&__list {
+		display: block;
+		width: 1000px;
+		margin: 0 auto;
+	}
+
+	&__item {
+		max-width: 1000px;
+		img {
+			min-width: 100%;
+			height: auto;
+		}
+	}
+}
