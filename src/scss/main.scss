@@ -12,10 +12,4 @@
 @import 'blocks/footer';
 @import 'blocks/gallery';
 
-.show {
-	display: block;
-  }
-  
-  .hide {
-	display: none;
-  }
+@import 'basic/add-classes';
