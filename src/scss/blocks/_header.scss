@@ -20,7 +20,7 @@
     height: 96px;
   }
 
-  @media (max-width: 768px) {
+  @media (max-width: 768px) and (max-device-width: 568px) and (orientation: landscape) {
     padding: 5px 0 0;
 
     &__logo {
