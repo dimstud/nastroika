@@ -37,6 +37,10 @@
       margin-right: 0;
     }
   }
+  
+  @media only screen and (min-width: 768px) and (orientation: landscape) {
+    display: none;
+  }
 
   @media (max-width: 768px) {
     max-width: 100%;
@@ -54,6 +58,30 @@
 
 #info__mobile {
   display: none;
+  
+  @media only screen and (min-width: 768px) and (orientation: landscape) {
+    position: fixed;
+    right: 50px;
+    bottom: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    background-color: $elem-color;
+    border-radius: 50%;
+    a {
+      display: block;
+      width: 24px;
+      height: 24px;
+      svg {
+        path {
+          fill: $bg-color-black;
+        }
+      }
+    }
+  }
+  
   @media (max-width: 768px) {
     position: fixed;
     right: 50px;

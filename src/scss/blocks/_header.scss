@@ -2,7 +2,7 @@
   position: fixed;
   top: 0;
   left: 0;
-  width: 100vw;
+  width: 100%;
   z-index: 20;
   background-color: $bg-color-dark;
 
@@ -12,15 +12,23 @@
     align-items: center;
     padding-left: 20px;
     padding-right: 20px;
-    background-color: $bg-color-dark;
   }
 
   &__logo {
     width: 370px;
     height: 96px;
   }
+  
+  @media only screen and (min-width: 768px) and (orientation: landscape) {
+    padding: 5px 0 0;
 
-  @media (max-width: 768px) and (max-device-width: 568px) and (orientation: landscape) {
+    &__logo {
+      width: 240px;
+      height: 62px;
+    }
+  }
+
+  @media (max-width: 768px) {
     padding: 5px 0 0;
 
     &__logo {
