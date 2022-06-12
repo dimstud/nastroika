@@ -59,7 +59,7 @@
 #info__mobile {
   display: none;
   
-  @media only screen and (min-width: 768px) and (orientation: landscape) {
+  @media only screen and (min-width: 768px) and (max-width: 1199px) and (orientation: landscape) {
     position: fixed;
     right: 50px;
     bottom: 50px;

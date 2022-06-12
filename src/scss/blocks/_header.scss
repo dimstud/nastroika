@@ -19,7 +19,7 @@
     height: 96px;
   }
   
-  @media only screen and (min-width: 768px) and (orientation: landscape) {
+  @media only screen and (min-width: 768px) and (max-width: 1199px) and(orientation: landscape) {
     padding: 5px 0 0;
 
     &__logo {
