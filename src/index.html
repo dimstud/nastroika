@@ -22,6 +22,7 @@
   <meta name="msapplication-TileColor" content="#ffffff">
   <meta name="msapplication-TileImage" content="img/ms-icon-144x144.png">
   <meta name="theme-color" content="#ffffff">
+
   <link rel="stylesheet" href="css/main.min.css">
   <title>Nastroika</title>
 </head>
@@ -113,23 +114,18 @@
         <div class="container">
           <ul class="menu__list">
             <li class="menu__item">
-              <a class="menu__link">
+              <a class="menu__link" href="#main">
                 Главная
               </a>
             </li>
             <li class="menu__item">
-              <a class="menu__link" href="gallery.html">
+              <a class="menu__link" href="#gallery">
                 Наши работы
               </a>
             </li>
             <li class="menu__item">
-              <a class="menu__link" href="#">
+              <a class="menu__link" href="#application">
                 Услуги
-              </a>
-            </li>
-            <li class="menu__item">
-              <a class="menu__link" href="#">
-                О нас
               </a>
             </li>
           </ul>
@@ -138,10 +134,10 @@
     </div>
   </header>
 
-  <main class="main">
+  <main class="main" id="main">
     <h1 class="visually-hidden">Настройка</h1>
 
-    <section class="application">
+    <section class="application" id="application">
       <div class="container">
         <p class="application__descr">Профессиональный электромонтаж Пенза и Пензенскаяобласть</p>
 
@@ -188,6 +184,34 @@
             <p class="application__card-descr">Проектирование, монтаж, пусконаладочные работ. Автоматический
               сбор данных с приборов учета, дистанционное управление электроприборами, освещением и
               коммуникацими. Системы охраны, защит от протечек.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="gallery" id="gallery">
+      <div class="container">
+        <h2 class="gallery__title">Наши работы</h2>
+        <div class="fade">
+          <div>
+            <picture>
+              <source media="(max-width: 575px)" srcset="img/gallery-1-320.jpg">
+              <source media="(max-width: 768px)" srcset="img/gallery-1-576.jpg">
+              <img src="img/gallery-1-769.jpg" alt="Электромонтаж" />
+            </picture>
+          </div>
+          <div>
+            <picture>
+              <source media="(max-width: 575px)" srcset="img/gallery-2-320.jpg">
+              <source media="(max-width: 768px)" srcset="img/gallery-2-576.jpg">
+              <img src="img/gallery-2-769.jpg" alt="Электромонтаж" />
+            </picture>
+          </div>
+          <div>
+            <source media="(max-width: 575px)" srcset="img/gallery-3-320.jpg">
+            <source media="(max-width: 768px)" srcset="img/gallery-3-576.jpg">
+            <img src="img/gallery-3-769.jpg" alt="Электромонтаж" />
+          </picture>
           </div>
         </div>
       </div>
@@ -313,7 +337,10 @@
     </a>
   </div>
 
+  <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+  <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
   <script src="js/script.js"></script>
+  <script src="js/slick.js"></script>
 </body>
 
 </html>

@@ -1,0 +1,86 @@
+.gallery {
+	margin-top: 150px;
+	padding: 60px 0;
+	text-align: center;
+
+	&__title {
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 59px;
+		margin-bottom: 40px;
+  }
+	.fade {
+		position: relative;
+		display: block;
+		width: 769px;
+		margin: 0 auto;
+
+		svg {
+			path {
+				fill: $elem-color;
+			}
+		}
+
+		.slick-arrow {
+			background-color: $bg-color-dark;
+			border: none;
+		}
+
+		.slick-dots {
+			display: flex;
+			justify-content: center;
+			margin-top: 20px;
+			li {
+				display: block;
+				width: 10px;
+				height: 10px;
+				background-color: $elem-color;
+				border-radius: 50%;
+				margin-right: 20px;
+				&:last-child {
+					margin-right: 0;
+				}
+			}
+
+			button {
+				visibility: hidden;
+			}
+		}
+	}
+
+	&__arrow {
+		&-prev {
+			position: absolute;
+			left: -80px;
+			top: 50%;
+			transform: translateY(-50%);
+		}
+		&-next {
+			position: absolute;
+			right: -80px;
+			top: 50%;
+			transform: translateY(-50%);
+		}
+	}
+
+	@media (max-width: 768px) {
+		margin-top: 70px;
+
+		.fade {
+			width: 576px;
+		}
+	}
+
+	@media (max-width: 575px) {
+		margin-top: 66px;
+
+		&__title {
+      font-size: 26px;
+      line-height: 32px;
+    }
+
+		.fade {
+			width: 320px;
+		}
+	}
+}
