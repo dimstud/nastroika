@@ -11,9 +11,22 @@
   }
 	.fade {
 		position: relative;
-		display: block;
 		width: 769px;
 		margin: 0 auto;
+
+		picture {
+			display: flex;
+			align-items: center;
+			height: 480px;
+		}
+
+		img {
+			display: block;
+			object-fit: contain;
+			object-position: 50% 50%;
+			height: 100%;
+			margin: 0 auto;
+		}
 
 		svg {
 			path {

@@ -4,8 +4,8 @@
 
   &__title {
     font-weight: 700;
-    font-size: 20px;
-    line-height: 24px;
+    font-size: 16px;
+    line-height: 20px;
     text-align: center;
   }
   &__list {
@@ -17,13 +17,15 @@
   }
   &__day {
     font-weight: 700;
-    font-size: 16px;
-    line-height: 20px;
+    font-size: 12px;
+    line-height: 16px;
   }
   &__hours {
     display: block;
     margin-top: 6px;
     text-align: center;
+    font-size: 12px;
+    line-height: 16px;
   }
   
   @media only screen and (min-width: 768px) and (max-width: 1199px) and (orientation: landscape) {
@@ -31,6 +33,6 @@
   }
 
   @media (max-width: 768px) {
-    display: none ;
+    display: none;
   }
 }
