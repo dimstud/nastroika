@@ -1,5 +1,4 @@
 .application {
-  margin-top: 150px;
   padding: 100px 0;
   text-align: center;
   background: url('../img/promo_bg.jpg') center (center/cover) no-repeat;
@@ -70,18 +69,10 @@
       margin-bottom: 50px;
     }
   }
-  
-  @media only screen and (min-width: 768px) and (max-width: 1199px) and (orientation: landscape) {
-    margin-top: 70px;
-  }
 
-  @media (max-width: 768px) {
-    margin-top: 70px;
-  }
 
   @media (max-width: 575px) {
     margin-top: 66px;
-
     padding: 40px 0;
 
     &__descr {

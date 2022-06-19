@@ -1,0 +1,15 @@
+.main {
+  margin-top: 150px;
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1199px) and (orientation: landscape) {
+    margin-top: 70px;
+  }
+  
+@media (max-width: 768px) {
+    margin-top: 70px;
+  }
+  
+@media (max-width: 575px) {
+    margin-top: 66px;
+}
